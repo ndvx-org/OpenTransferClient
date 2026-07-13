@@ -62,9 +62,70 @@
             }
         },
         {
+            "name": "msvc-base",
+            "hidden": true,
+            "generator": "Visual Studio 18 2026",
+            "toolset": "v145",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "installDir": "${sourceDir}/out/install/${presetName}",
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Windows"
+            }
+        },
+        {
+            "name": "x64-debug-msvc",
+            "displayName": "x64 Debug (MSVC)",
+            "inherits": "msvc-base",
+            "architecture": {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "x64-release-msvc",
+            "displayName": "x64 Release (MSVC)",
+            "inherits": "msvc-base",
+            "architecture": {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "x86-debug-msvc",
+            "displayName": "x86 Debug (MSVC)",
+            "inherits": "msvc-base",
+            "architecture": {
+                "value": "x86",
+                "strategy": "external"
+            },
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "x86-release-msvc",
+            "displayName": "x86 Release (MSVC)",
+            "inherits": "msvc-base",
+            "architecture": {
+              "value": "x86",
+              "strategy": "external"
+            },
+            "cacheVariables": {
+              "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
             "name": "linux-debug",
             "displayName": "Linux Debug",
-            "generator": "Ninja",
+            "generator": "Unix Makefiles",
             "binaryDir": "${sourceDir}/out/build/${presetName}",
             "installDir": "${sourceDir}/out/install/${presetName}",
             "cacheVariables": {

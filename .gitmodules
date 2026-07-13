@@ -1,0 +1,3 @@
+[submodule "ui-client/SDL"]
+	path = ui-client/SDL
+	url = https://github.com/libsdl-org/SDL.git
