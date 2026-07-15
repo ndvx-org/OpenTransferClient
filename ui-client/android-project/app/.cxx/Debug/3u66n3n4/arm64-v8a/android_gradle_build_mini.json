@@ -1,0 +1,65 @@
+{
+  "buildFiles": [
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\CMakeLists.txt",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\3rdparty.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\FindLibUSB.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\GetGitRevisionDescription.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\GetGitRevisionDescription.cmake.in",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\macros.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\PreseedEmscriptenCache.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\PreseedMSVCCache.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\PreseedNokiaNGageCache.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\SDL3Config.cmake.in",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\sdlchecks.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\sdlcommands.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\sdlcompilers.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\sdlcpu.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\sdlmanpages.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\cmake\\sdlplatform.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\CMakeLists.txt",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\include\\build_config\\SDL_build_config.h.cmake",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\SDL\\include\\build_config\\SDL_revision.h.cmake"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\installed\\software\\androidsdk_commandlinetools-win-14742923_latest\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\android-project\\app\\.cxx\\Debug\\3u66n3n4\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\installed\\software\\androidsdk_commandlinetools-win-14742923_latest\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\android-project\\app\\.cxx\\Debug\\3u66n3n4\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "SDL3-shared::@e7c329919722962a2ad4": {
+      "artifactName": "SDL3-shared",
+      "abi": "arm64-v8a",
+      "output": "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\android-project\\app\\build\\intermediates\\cxx\\Debug\\3u66n3n4\\obj\\arm64-v8a\\libSDL3.so",
+      "runtimeFiles": []
+    },
+    "SDL_uclibc::@e7c329919722962a2ad4": {
+      "artifactName": "SDL_uclibc",
+      "abi": "arm64-v8a",
+      "output": "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\android-project\\app\\.cxx\\Debug\\3u66n3n4\\arm64-v8a\\SDL\\libSDL_uclibc.a",
+      "runtimeFiles": []
+    },
+    "main::@6890427a1f51a3e7e1df": {
+      "artifactName": "main",
+      "abi": "arm64-v8a",
+      "output": "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\android-project\\app\\build\\intermediates\\cxx\\Debug\\3u66n3n4\\obj\\arm64-v8a\\libmain.so",
+      "runtimeFiles": [
+        "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\android-project\\app\\build\\intermediates\\cxx\\Debug\\3u66n3n4\\obj\\arm64-v8a\\libSDL3.so"
+      ]
+    },
+    "SDL3_test::@e7c329919722962a2ad4": {
+      "artifactName": "SDL3_test",
+      "abi": "arm64-v8a",
+      "output": "E:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\android-project\\app\\.cxx\\Debug\\3u66n3n4\\arm64-v8a\\SDL\\libSDL3_test.a",
+      "runtimeFiles": []
+    }
+  }
+}

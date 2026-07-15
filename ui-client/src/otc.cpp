@@ -9,6 +9,7 @@ int main(int argc, char* argv[])
 	if(client.init())
 	{
 		// Main application logic here
+		SDL_Delay(3000);
 	}
 	else
 	{
@@ -48,10 +49,22 @@ bool OpenTransferClient::init()
 		if(m_initialized)
 			m_log << lp << "SDL initialized successfully" << Log::endl;
 		else
+		{
 			m_log << lp << "Failed to initialize SDL: " << SDL_GetError() << Log::endl;
+			return false;
+		}
 	}
 	else
 		m_log << lp << "Tried to initialize SDL, but it was already initialized" << Log::endl;
+
+	try
+	{
+		m_window = std::make_shared<Window>("main_window", "OpenTransferClient", 800, 600);
+	}
+	catch(unsigned short errCode)
+	{
+		return false;
+	}
 	return m_initialized;
 }
 
@@ -60,6 +73,7 @@ void OpenTransferClient::deinit()
 	Log::logpoint lp(m_logpoint, "Deinit");
 	if(m_initialized)
 	{
+		m_window.reset();
 		SDL_Quit();
 		m_initialized = false;
 		m_log << lp << "SDL deinitialized successfully" << Log::endl;

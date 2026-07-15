@@ -1,0 +1,7 @@
+#Wed Jul 15 14:26:57 CEST 2026
+base.0=E\:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\android-project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=E\:\\work\\paw0\\programs\\NDVX\\OpenTransferClient\\ui-client\\android-project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+path.0=0/classes.dex
+path.1=2/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

@@ -1,6 +1,9 @@
 // OpenTransferClient (OTC) - log.h
 // Version: 0.0.1-dev - NDVX - 2026
 
+#ifndef LOG_H
+#define LOG_H
+
 #include <iostream>
 #include <string>
 #include <string_view>
@@ -59,3 +62,5 @@ class Log
 			return *this;
 		}
 };
+
+#endif // LOG_H
