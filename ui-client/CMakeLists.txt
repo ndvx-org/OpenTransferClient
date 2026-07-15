@@ -10,7 +10,7 @@ project ("ui-client")
 add_subdirectory(SDL EXCLUDE_FROM_ALL)
 
 # Fügen Sie der ausführbaren Datei dieses Projekts eine Quelle hinzu.
-add_executable (OpenTransferClient_ui-client "src/otc.cpp" "src/otc.h")
+add_executable (OpenTransferClient_ui-client "src/otc.cpp" "src/otc.h" "src/log.h" "src/err.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET OpenTransferClient_ui-client PROPERTY CXX_STANDARD 23)
