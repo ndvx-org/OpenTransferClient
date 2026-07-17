@@ -23,8 +23,10 @@ class OpenTransferClient
 	public:
 		OpenTransferClient();
 		bool init();
+		void update();
 		void deinit();
 		~OpenTransferClient();
+		bool m_running = false;
 };
 
 #endif // OTC_H
